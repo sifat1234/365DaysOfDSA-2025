@@ -12,6 +12,10 @@ int solve(int* A, int n1, int B) {
         else if(A[end]-A[start]<B){
             end++;
         }
+
+        else if(start==end){
+            end++;
+        }
         else{
             start++;
         }
