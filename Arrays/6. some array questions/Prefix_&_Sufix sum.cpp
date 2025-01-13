@@ -39,7 +39,7 @@ void suffixSum(int arr[], int n)
 
 int main()
 {
-    int arr[] = {6, 4, 5, -3, 2, 8};
+    int arr[] = {6, 4, 5, -3, 2, 9};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     prefixSum(arr, n);
